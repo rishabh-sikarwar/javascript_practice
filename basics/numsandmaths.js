@@ -12,4 +12,4 @@ console.log(otherNumber.toPrecision(3));     //precision me priority decimal se 
 
 
 const zeroNumbers = 10000000
-console.log(zeroNumbers.toLocaleString('en-IN'));    //
+console.log(zeroNumbers.toLocaleString('en-IN'));    //by writing en-IN the commas will be adden by indian number system
