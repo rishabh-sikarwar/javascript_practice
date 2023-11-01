@@ -13,3 +13,27 @@ console.log(otherNumber.toPrecision(3));     //precision me priority decimal se 
 
 const zeroNumbers = 10000000
 console.log(zeroNumbers.toLocaleString('en-IN'));    //by writing en-IN the commas will be adden by indian number system
+
+
+// *********************************************Maths********************************************************
+
+console.log(Math);
+console.log(Math.abs(-4))
+console.log(Math.round(3.34));
+console.log(Math.max(2,5,2,7,3));
+console.log(Math.random( ));                           //always value is between 0 and 1  
+console.log( (Math.random( )*10) + 1 );                //by multiplying by 10 the values will come in between 1 and 10 
+
+
+
+
+
+
+//    *************  basic formula for any random number in between any two given numbers**************************************
+const  min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() *(max-min + 1) + min))    
+
+
+
