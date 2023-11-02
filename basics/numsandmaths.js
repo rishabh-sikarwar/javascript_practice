@@ -37,3 +37,15 @@ console.log(Math.floor(Math.random() *(max-min + 1) + min))
 
 
 
+// *******************************************  Date and Time  *****************************************************************
+
+let myDate = new Date()
+console.log(myDate);                                  //date is a object in js
+console.log(myDate.toString());
+
+let myCreateDate = new Date(2023,0,23,5,3)
+console.log(myCreateDate.toLocaleString());
+
+
+
+
