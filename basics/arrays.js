@@ -22,3 +22,21 @@ console.log(abc);
 const abcd = myArr.splice(1,3)             // slice the 1,2,3  and store it in the other array and also remove them from original array
 console.log(myArr);
 console.log(abcd);
+
+
+
+
+
+
+// *******************************************array part 2 **********************************************
+
+
+const marvel_heros = ["thor", "ironman", "spiderman"]
+const dc_heros = ["superman", "flash", "batman"]
+const all_heros = marvel_heros.push(dc_heros)
+console.log(all_heros);
+console.log(all_heros[3][1]);
+
+
+const all_new_heros = [...marvel_heros, ...dc_heros]
+console.log(all_new_heros);
