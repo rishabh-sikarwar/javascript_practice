@@ -47,11 +47,77 @@ console.log(JsUser.greetingsTwo());
 
 
 
-// *********************************************object_2  **********************************************************
+// *********************************************  object_2  **********************************************************
+
+// const tinderUser = new Object()                  singleton object
+const tinderUser = {}                        //both are same only the difference is to declare otherwise both are the empty objects
+
+tinderUser.id = "123abc"
+tinderUser.name = "Rishabh"
+tinderUser.isLoggedIn = false
+
+
+const regularUser = {
+    email: "some@gmail.com",
+    fullname : {
+        userFullname: {
+            firstname: "Rishabh",            //nested objects
+            lastname: "Sikarwar"                 
+        }
+    }
+}
+
+
+console.log(regularUser.fullname.userFullname.firstname);
+
+
+
+const obj1 = {1: "a" , 2: "b"}
+const obj2 = {3: "a", 4: "b"}
+
+// const obj3 = {obj1,obj2}              this problem is same as the string problem
+// const obj3 = Object.assign({},obj1 ,obj2)                        // { } an empty object  ,    it is good to merge the different objects
+const obj3 = {...obj1, ...obj2}
+console.log(obj3);
+
+
+
+const users = [
+    {
+        id: 1,
+        email: "R@gmail.com"
+    },
+    {
+        id: 2,
+        email: "R@gmail.com"
+    },
+    {
+        id: 3,
+        email: "R@gmail.com"
+    },
+    {
+        id: 4,
+        email: "R@gmail.com"
+    },
+    {
+        id: 5,
+        email: "R@gmail.com"
+    }
+
+]
+
+console.log(users[1].id);
 
 
 
 
+console.log(tinderUser);
+console.log(Object.keys(tinderUser));                   //saari keys ek array me convert ho jati hai or hume ek array milta hai
+console.log(Object.values(tinderUser));                  //keys ki tarah values bhi nikal sakte hai ek array me
+console.log(Object.entries(tinderUser));                  //array ke andaar array
+
+console.log(tinderUser.hasOwnProperty("isLogged"));
+console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 
 
 
