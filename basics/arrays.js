@@ -64,6 +64,13 @@ console.log(Array.of(score1, score2 , score3));                 //of returns arr
 
 
 
+// also read something about                Array.isArray
+//                                               .from 
+//                                               .of
+
+
+
+
 
 
 
