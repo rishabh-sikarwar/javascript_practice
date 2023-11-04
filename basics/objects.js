@@ -127,5 +127,31 @@ console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 
 
 
+const course = {
+    coursename : "js in hindi",
+    price: "999",
+    courseInstructor : "hitest"
+}
+
+// course.courseInstructor                          //is ko bar bar likhne ki wajah hum iski destructure kar sakte hai
+const {courseInstructor: instructor} = course
+
+console.log(instructor);                       // console.log(courseInstructor);      iski jagah hum ye bhi likh sakte hai 
+
+
+//curly braces ka syntex matlab destructuring  .........
+
+
+// {
+//     name: "rishabh",
+//     coursename : "js in hindi",
+//     price : "free"
+// }                   ***************** this is a json file it is just like the object in the javascript ********************
+// api can also be in the format of an array
+
+
+
+
+
 
 
