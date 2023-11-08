@@ -50,6 +50,22 @@ handleObject({
     price:2929
 })
 
+// **********************************************intersting***************************************************
+
+function addone(num){
+    return num + 1
+}
+addone(5)
+
+// or different method to declare a function
+
+addTwo(5)                 //show error as in this declaration se pehle access karne ki koshish kar rahe hai kyuki ye ek variable me hai
+const addTwo = function(num){
+    return num + 2
+}
+
+
+
 
 
 
