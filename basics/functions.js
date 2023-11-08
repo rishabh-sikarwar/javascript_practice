@@ -57,7 +57,7 @@ function addone(num){
 }
 addone(5)
 
-// or different method to declare a function
+                              // or different method to declare a function
 
 addTwo(5)                 //show error as in this declaration se pehle access karne ki koshish kar rahe hai kyuki ye ek variable me hai
 const addTwo = function(num){
