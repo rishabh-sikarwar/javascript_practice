@@ -2,8 +2,8 @@
 
 (function chai(){
     console.log("Data Base Connected");
-
-// })();                            main important is the semicolone to end the iife 
+                }
+)();                           // main important is the semicolone to end the iife 
 
 //            ()()    first parenthesis is the function defination and the second one is the execution call 
 
@@ -14,4 +14,4 @@
 
 (  (argument ) =>  {
     console.log( `DB connected two ${argument } `);
-}  )("pass the parameter");
+}  )  ("pass the parameter");
