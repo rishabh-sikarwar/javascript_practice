@@ -33,6 +33,20 @@
     if (balance > 500) console.log("test"),
     console.log("test2");                             //by this we can write multiple lines code   we can use comma
 
-    
+    // *****************************************nesting ***********************************************
+
+    const userLoggedIn = true
+    const debitCard = true
+    const LoggedInFromGoogle = true
+    const LoggedInFromEmail = true
+
+    if(userLoggedIn && debitCard) {
+      console.log("Allow to buy course");
+    }
+
+
+    if (LoggedInFromEmail || LoggedInFromGoogle) {
+      console.log("User Logged In ");
+    }
 
 
